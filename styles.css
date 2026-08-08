@@ -25,7 +25,8 @@ a {
 
 a,
 .bio,
-.proj_desc {
+.proj_desc,
+.info_text {
     font-size: 8pt;
     font-family: arialblack;
     line-height: 9pt;
@@ -103,12 +104,13 @@ main {
     margin: 0 0 8px;
 }
 
-.proj_desc {
+.proj_desc,
+.info_text {
     max-width: min(1050px, 100%);
     margin: 0 0 88px;
 }
 
-@media (max-width: 1175px) {
+@media (max-width: 1180px) {
     .bio {
         display: none;
     }
