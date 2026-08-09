@@ -25,11 +25,22 @@ a {
 
 a,
 .bio,
-.proj_desc,
-.info_text {
+.proj_desc
+{
     font-size: 8pt;
     font-family: arialblack;
     line-height: 9pt;
+    /* use font */
+}
+
+#info {
+    scroll-margin-top: 82px;
+}
+
+.info_text {
+    font-size: 42pt;
+    font-family: arialblack;
+    line-height: 46pt;
     /* use font */
 }
 
@@ -86,7 +97,7 @@ body {
 
 main {
     padding-top: 44px;
-    /* 8px top offset + 28px bar height + 8px breathing room */
+    /* 8px top offset + 36px bar height + 8px breathing room */
     padding-left: 28px;
     /* same x-position as "works by Jiaxuan He" (16px bar offset + 12px nav-left padding) */
     padding-right: 28px;
